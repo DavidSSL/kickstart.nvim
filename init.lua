@@ -150,7 +150,7 @@ vim.keymap.set('n', 'k', "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = tr
 vim.keymap.set('n', 'j', "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })
 
 -- Remap key for leap
-vim.keymap.set('n', 'z', '<Plug>(leap-forward-to)')
+vim.keymap.set('n', '`', '<Plug>(leap-forward-to)')
 
 -- [[ Highlight on yank ]]
 -- See `:help vim.highlight.on_yank()`
