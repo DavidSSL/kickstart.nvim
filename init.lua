@@ -354,7 +354,13 @@ local servers = {
   -- pyright = {},
   -- rust_analyzer = {},
   -- tsserver = {},
-
+  omnisharp = { -- https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#omnisharp
+    cmd ={
+      "dotnet",
+      "home/david/.local/share/nvim/mason/packages/omnisharp/Omnisharp.dll",
+    },
+    enable_editorconfig_support = true,
+  },
   sumneko_lua = {
     Lua = {
       workspace = { checkThirdParty = false },
