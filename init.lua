@@ -154,7 +154,7 @@ vim.keymap.set('n', 'j', "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = tr
 
 -- Remap key for leap
 vim.keymap.set('n', '<A-f>', '<Plug>(leap-forward-to)')
-vim.keymap.set('n', '<A-b>', '<Plug>(leap-forward-to)')
+vim.keymap.set('n', '<A-b>', '<Plug>(leap-backward-to)')
 vim.keymap.set('i', '<A-f>', '<c-o><Plug>(leap-forward-to)')
 vim.keymap.set('i', '<A-b>', '<c-o><Plug>(leap-backward-to)')
 
